@@ -47,7 +47,16 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800);
         return false;
+    });/*form-footer*/
+   
+        
+    $("#formilink").click(function(){
+        $(".formcontainer").slideToggle("slow");
     });
+
+    
+    /*form-footer end*/
     /*scroll arrow ends*/
+    
 
 });
