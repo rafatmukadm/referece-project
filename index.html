@@ -507,13 +507,19 @@
         <!--anchor start-->
         <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" style="display: block;"><span class="glyphicon glyphicon-menu-up"></span></a>
         <!-- //achor-->
+        <div class="clearfix"></div>
         <!-- footer form-->
-        <a id="formilink" href="#" class="btn btn-primary btn-lg back-to-top" style="display: block;"><span ><i class="fa fa-envelope"></i></span></a>
+        <div>
+        
+        </div>
         <section id="footer-form">
         <div class="col-md-12">
             <div class="container">
                 <div class="row">
-                    <form  class="formcontainer">
+                  <div id="formilink-parent">
+                   <a id="formilink" class="btn btn-primary btn-lg"><span ><i class="fa fa-envelope"></i></span></a>
+                      <div class="clearfix"></div>
+                    <form id="myDIV" class="formcontainer">
                        <header class="p-lr-none">
                       <span class="p-tb-md"> <i class="fa fa-window-close-o text-fff" aria-hidden="true"></i></span>
                         </header>
@@ -526,6 +532,7 @@
                             <button type="submit" class="btn  center-block m-t-sm">Submit</button>
                         </fieldset>
                     </form>
+                    </div>
                 </div>
             </div>
         </div>
